@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="head-count">
+          <div class="count-player">Players: 0</div>
+          <div class="count-point">Total Point: 0</div>
+        </div>
+        <div class="head-title">Rikkei Scoreboard</div>
+        <div class="head-watch">
+          <div class="stop-watch">Stopwatch</div>
+          <div id="count-time" class="count-time">0</div>
+          <div class="watch-list-button">
+            <button id="btn-start" class="start">START</button>
+            <button id="btn-stop" class="stop">STOP</button>
+            <button id="btn-reset" class="reset">RESET</button>
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <div id="parent" class="left-list">
+          <button class="delete">X</button>
+          <span><i class="fa-sharp fa-solid fa-crown"></i></span>
+          <span>Minh Cường</span>
+        </div>
+        <div class="right-list">
+          <button id="btn-minus" class="btn">-</button>
+          <span id="count-score" class="count-score">0</span>
+          <button id="btn-plus" class="btn">+</button>
+        </div>
+      </div>
+      <div class="footer">
+        <form action="" class="main-form">
+          <input
+            id="form-input"
+            class="input"
+            type="text"
+            placeholder="Enter a player's name"
+          />
+        </form>
+        <button id="add-player" class="add-player">ADD PLAYER</button>
+      </div>
+    </div>
+    <script src="./test.js"></script>
+  </body>
+</html>

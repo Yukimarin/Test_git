@@ -1,0 +1,42 @@
+/* *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+}
+
+.container .plus{
+    min-width: 100px;
+    background-color: brown;
+    color: white;
+    margin-top: 5px;
+}
+
+.container h4{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.container .item-list{
+    width: 90%;
+    height: 100px;
+    background-color: antiquewhite;
+    margin:auto;
+}
+
+.item-list .item{
+    border-bottom: 1px dotted black;
+    padding: 10px 5px;
+} */
+
+.input {
+    width: 200px;
+    height: 200px;
+}
